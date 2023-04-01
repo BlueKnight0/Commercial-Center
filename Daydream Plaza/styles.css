@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Google Sans Regular";
+    box-sizing: border-box;
+}
+
+header{
+    height: 7rem;
+    background: #11101b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.nav-links:hover{
+    font-size: 15px;
+    color: yellow;
+}
+
+.logo > img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-links{
+    margin-right: 10px;
+}
