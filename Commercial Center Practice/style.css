@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+
+}
+.header{
+    background-color: lightblue;
+    display: flex;
+    height: 7rem;
+}
+
+.nav_bar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 4rem;
+    font-size: large;
+}
+
+a:hover{
+    font-size: 1.25rem;
+    color: rgb(191, 190, 190);
+}
+
+.logo{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+.slide_show{
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    font-size: larger;
+    background-color: #fff;
+    border: 0;
+    padding: 2px 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.slide > img{
+    margin: auto;
+    width: 40%;
+    height: 30rem;
+
+}
+
+.slide {
+    position: relative;
+}
+
+.slide .left{
+    position: absolute;
+    top: 50%;;
+    
+}
+
+.slide .right{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    
+}
